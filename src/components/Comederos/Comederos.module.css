@@ -1,0 +1,42 @@
+.comederos {
+    display: flex;
+    flex-direction: row-reverse;
+}
+.classAside {
+    width: 60vw;
+}
+
+.divAside {
+    background-color: rgba(166, 166, 166);
+    margin: 20px;
+    padding: 10px;
+    padding-left: 20px;
+    border-radius: 3px;
+}
+/* .divAside h3 {
+    /* font-family: Georgia, 'Times New Roman', Times, serif; 
+} */
+
+.a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+
+.divText{
+    padding: 15px;
+}
+
+
+/* Vector 1
+
+.svg {
+    position: absolute;
+    width: 900px;
+    height: 900px;
+    left: 131px;
+    top: 123px;
+
+    border: 1px solid #000000;
+    box-shadow: 3px 4px 4px rgba(232, 74, 74, 0.73);
+} */

@@ -1,0 +1,90 @@
+
+/* First version */
+
+
+/* .classUl {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0%;
+    padding: 0%;
+}
+.classNav {
+    height: 50px;
+}
+
+.classLi {
+    position: relative;
+    display: flex;
+    flex: auto;
+    background-color: rgba(254, 29, 123, 0.534);
+    height: 50px;
+    font-weight: 500;
+}
+
+.classLi:hover {
+    flex: auto;
+    background-color: rgba(153, 24, 78, 0.782);
+}
+.classLi:hover a {
+    color: rgb(255, 255, 255);
+}
+
+
+.classLi a {
+    text-align: center;
+    align-self: center;
+    padding-top: 10px;
+    margin: auto;
+}
+
+.a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+#idNavBar {
+    position: sticky;
+    top: 0;
+}
+
+.imgHome {
+    width: 30px;
+} */
+
+
+/* Second version */
+
+
+.a {
+    display: inline-block;
+    padding: 10px 30px;
+    margin: 2px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background-color: rgba(254, 29, 123, 0.897);
+    border-radius: 10px;
+}
+
+.a:hover {
+    background-color: rgb(153, 24, 78);
+    color: rgb(255, 255, 255);
+    /* padding: 10px 35px; */
+    border-radius: 2px;
+    position: relative;
+    top: 3px;
+}
+
+.classNav {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(166, 166, 166, 0.589);
+    backdrop-filter: blur(5px);
+}
+
+#idNavBar {
+    position: sticky;
+    top: 0;
+    z-index: 5;
+}
