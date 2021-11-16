@@ -20,7 +20,6 @@ export default function NavBar() {
                 <a className={ style.a } href="http://localhost:3000/"> Nosotros </a>
                 <a className={ style.a } href="http://localhost:3000/"> Contacto </a>
             </nav>
-
         </div>
     )
 }

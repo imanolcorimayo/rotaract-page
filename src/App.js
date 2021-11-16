@@ -6,12 +6,19 @@ import './App.css';
 import NavBar from './components/nav-bar/NavBar';
 import Inicio from './components/Inicio/Inicio';
 import Comederos from './components/Comederos/Comederos.jsx';
-import Footer from './components/Footer/Footer'
+import Footer from './components/Footer/Footer';
+import SearchBar from './components/search-bar/search-bar';
 
 function App() {
+
+  function animacion(){
+    console.log("esta es la funcion animacion")
+  }
+
   return (
     <div className="App">
-      <header >
+      <header>
+        <SearchBar></SearchBar>
         <NavBar id="idNavBar"></NavBar>
         <Inicio></Inicio>
       </header>

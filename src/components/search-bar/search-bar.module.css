@@ -1,0 +1,10 @@
+.divPrincipal {
+    display: block;
+    background-color: rgb(235, 235, 235);
+}
+
+#imgLogo {
+    object-fit: cover;
+    width: 30%;
+    filter: blur(0.01px);
+}
