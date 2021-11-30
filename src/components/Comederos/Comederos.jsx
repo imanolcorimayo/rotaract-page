@@ -29,7 +29,8 @@ export default function Comederos() {
                     <h3>Lugares</h3>
                     <nav>
                         <ul>
-                            <li> <a className={ style.a } href="#algo">Primer Lugar</a></li>
+                            <li> <a className={ style.a } href="#algo">Primer Lugar</a>
+                            <button>algo</button></li>
                             <li> <a className={ style.a } href="#algo">Segundo Lugar</a></li>
                             <li> <a className={ style.a } href="#algo">Tercer Lugar</a></li>
                             <li> <a className={ style.a } href="#algo">Cuarto Lugar</a></li>
